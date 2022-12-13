@@ -18,7 +18,7 @@ const (
 	VCardTagName = "vcard"
 
 	// VCardVersion represents the supported version of vCard.
-	VCardVersion = "2.1"
+	VCardVersion = "3.0"
 )
 
 // VCard represents a single vCard with its fields.
@@ -71,6 +71,7 @@ type VCard struct {
 	InstantMessenger      string `vcard:"IMPP"`
 	Interest              string `vcard:"INTEREST"`
 	OrganizationDirectory string `vcard:"ORG-DIRECTORY"`
+	PhotoBase64JPEG       string `vcard:"PHOTO;ENCODING=BASE64;TYPE=JPEG"`
 }
 
 // GetVCards returns a list of vCard based on a file path.

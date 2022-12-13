@@ -50,14 +50,15 @@ const (
 	XML          = "XML"
 
 	// Additional properties
-	BirthPlace   = "BIRTHPLACE"
-	DeathPlace   = "DEATHPLACE"
-	DeathDate    = "DEATHDATE"
-	Expertise    = "EXPERTISE"
-	Hobby        = "HOBBY"
-	IMPP         = "IMPP"
-	Interest     = "INTEREST"
-	OrgDirectory = "ORG-DIRECTORY"
+	BirthPlace      = "BIRTHPLACE"
+	DeathPlace      = "DEATHPLACE"
+	DeathDate       = "DEATHDATE"
+	Expertise       = "EXPERTISE"
+	Hobby           = "HOBBY"
+	IMPP            = "IMPP"
+	Interest        = "INTEREST"
+	OrgDirectory    = "ORG-DIRECTORY"
+	PhotoBase64Jpeg = "PHOTO;ENCODING=BASE64;TYPE=JPEG"
 )
 
 var (
@@ -103,13 +104,14 @@ var (
 		XML:          "XML",
 
 		// Additional properties
-		BirthPlace:   "BIRTHPLACE",
-		DeathPlace:   "DEATHPLACE",
-		DeathDate:    "DEATHDATE",
-		Expertise:    "EXPERTISE",
-		Hobby:        "HOBBY",
-		IMPP:         "IMPP",
-		Interest:     "INTEREST",
-		OrgDirectory: "ORG-DIRECTORY",
+		BirthPlace:      "BIRTHPLACE",
+		DeathPlace:      "DEATHPLACE",
+		DeathDate:       "DEATHDATE",
+		Expertise:       "EXPERTISE",
+		Hobby:           "HOBBY",
+		IMPP:            "IMPP",
+		Interest:        "INTEREST",
+		OrgDirectory:    "ORG-DIRECTORY",
+		PhotoBase64Jpeg: "PHOTO;ENCODING=BASE64;TYPE=JPEG",
 	}
 )
