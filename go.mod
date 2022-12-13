@@ -1,4 +1,4 @@
-module github.com/mapaiva/vcard-go
+module github.com/wehmoen/vcard-go
 
 go 1.17
 
