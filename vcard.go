@@ -31,7 +31,7 @@ type VCard struct {
 	Anniversary     string `vcard:"ANNIVERSARY"`
 	BirthDay        string `vcard:"BDAY"`
 	Nickname        string `vcard:"NICKNAME"`
-	Photo           string `vcard:"PHOTO"`
+	Photo           string `vcard:"PHOTO;ENCODING=BASE64;TYPE=JPEG"`
 	CalendarAddrURI string `vcard:"CALADRURI"`
 	CalendarURI     string `vcard:"CALURI"`
 	Categories      string `vcard:"CATEGORIES"`

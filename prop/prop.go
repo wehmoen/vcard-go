@@ -87,7 +87,7 @@ var (
 		Nickname:     "NICKNAME",
 		Note:         "NOTE",
 		Org:          "ORG",
-		Photo:        "PHOTO",
+		Photo:        "PHOTO;ENCODING=BASE64;TYPE=JPEG",
 		ProdID:       "PRODID",
 		Profile:      "PROFILE",
 		Related:      "RELATED",
