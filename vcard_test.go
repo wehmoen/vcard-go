@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/mapaiva/vcard-go"
 	"github.com/stretchr/testify/assert"
+	"github.com/wehmoen/vcard-go"
 )
 
 func TestGetVCardsByReader(t *testing.T) {

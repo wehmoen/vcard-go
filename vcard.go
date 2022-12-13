@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/mapaiva/vcard-go/prop"
+	"github.com/wehmoen/vcard-go/prop"
 )
 
 const (
